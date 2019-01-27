@@ -1,0 +1,20 @@
+{
+  "name": "make-camtasia-self-contained",
+  "version": "0.0.2",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:coding-everybody/git/git4-collaboration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "chokidar": "^2.0.4",
+    "prettyjson": "^1.2.1"
+  }
+}
