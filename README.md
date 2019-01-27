@@ -1,0 +1,1 @@
+# make-camtasia-self-contained
