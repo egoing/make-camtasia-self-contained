@@ -1,11 +1,12 @@
 {
-  "name": "make-camtasia-self-contained",
+  "name": "camtasia-pack",
   "version": "0.0.2",
-  "description": "",
+  "description": "Make your Camtasia project self contained",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin":{"camtasia-pack":"main.js", "campack":"main.js"},
   "repository": {
     "type": "git",
     "url": "git@gitlab.com:coding-everybody/git/git4-collaboration.git"

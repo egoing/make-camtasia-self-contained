@@ -23,6 +23,8 @@ wacher.on('all', (event, fpath) => {
         return;
     console.info('>>> scan start', event, fpath);
     camtasiaJson = JSON.parse(fs.readFileSync(fpath, 'utf8'));
+    if(camtasiaJson['sourceBin'] === undefined)
+        return;
     camtasiaJson['sourceBin'].forEach((element, index) => {
         var src = element.src;
         console.log('   source bin src : ', src);
