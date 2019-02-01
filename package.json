@@ -1,6 +1,6 @@
 {
   "name": "camtasia-pack",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Make your Camtasia project self contained",
   "main": "main.js",
   "scripts": {
